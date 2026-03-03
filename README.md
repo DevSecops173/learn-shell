@@ -1,3 +1,3 @@
 # learn-shell asa
 
-sample repo
+sample repository
