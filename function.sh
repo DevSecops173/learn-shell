@@ -10,3 +10,6 @@ sample(){
 #call a function
 #funtion_name
 sample
+#source will import in common.sh
+source common.sh
+demo
