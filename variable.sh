@@ -5,4 +5,4 @@
 x=100
 
 echo value of x - $x
-echo value of x - $(x)
+echo value of x - ${x}
