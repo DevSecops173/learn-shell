@@ -38,3 +38,19 @@ if [ $a -lt 100 ]; then
   echo $a is less than 100
 
   fi
+
+#2.string Comparion
+# Operators : = , != , -z
+
+#[ abc = abc ]
+#[ -z $x ] -> this is true if x is not having any value which means it is not declared
+
+if [ -z "$x" ]; then
+
+echo $x is empty
+
+fi
+#note In expressions,varibales keep in double quotes
+
+#file checks
+#Operators : -e,(google it for many)
