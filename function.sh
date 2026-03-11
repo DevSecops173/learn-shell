@@ -13,3 +13,17 @@ sample
 #source will import in common.sh
 source common.sh
 demo
+
+first(){
+
+  echo value of a - ${a}
+  echo value of b - ${b}
+  echo first argument - $1
+  echo second argument - $2
+  echo all arguments - $*
+  echo arguments count - $#
+
+}
+a=10
+b=20
+first 100 200
